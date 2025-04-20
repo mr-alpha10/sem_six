@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Subject Resources</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+
+  <h1>SEM 6</h1>
+
+
+  <div class="subject">
+    <h2>Compiler Design</h2>
+    <ul>
+      <li><strong>Syllabus:</strong> <button class="btn" onclick="toggleSyllabus('cd')">View Syllabus</button></li>
+      <li><strong>Links:</strong><br><a class="resource-btn" href="https://www.youtube.com/playlist?list=PL1QH9gyQXfguPNDTsnG90W2kBDQpYLDQr" target="_blank">Watch Videos</a></li>
+      <li><strong>Notes:</strong><br><a class="resource-btn" href="https://your-storage-link/Compiler_Notes.pdf" download>Download Notes</a></li>
+    </ul>
+    <div id="cd" class="syllabus">
+      <p><strong>Module I:</strong> Introduction to Compilers and its Cousins, Structure of a Compiler, Science of building Compiler and its Application, Lexical Analyzer, Input Buffering, Specification and Recognition of Tokens, Introduction to Lex.</p>
+      <p><strong>Module II:</strong> Introduction to Syntax Analysis, Elimination of Ambiguity, Left Recursion and Left Factoring, Recursive and Non-Recursive Top-Down Parsers, Bottom-up Parsers: Shift Reduce Parser techniques and conflicts, all variants of LR Parsers, Handling Ambiguous grammar in Bottom-Up Parsing, Error handling while parsing, The Parser generator YAAC.</p>
+      <p><strong>Module III:</strong> Syntax-Directed Definition(SDD), Evaluation Order of SDD’s and its application, Syntax Directed Translation Schemes and their Implementation.</p>
+      <p><strong>Module IV:</strong> Intermediate code Generation: Variants of Syntax Tree, Three Address Code, Translation of Expressions, Control flow, Back Patching, Run Time Environment: Storage Organization.</p>
+      <p><strong>Module V:</strong> Code Generation: Issues in its Design, Target Language, Addresses in Target Code, Basic Blocks and Flow Graphs, Optimization of Basic Blocks Machine Independent Optimization: Sources of Optimization, Data Flow analysis.</p>
+    </div>
+  </div>
+
+  
+  <div class="subject">
+    <h2>Artificial Intelligence & Machine Learning</h2>
+    <ul>
+      <li><strong>Syllabus:</strong> <button class="btn" onclick="toggleSyllabus('aiml')">View Syllabus</button></li>
+      <li><strong>Links:</strong><br><a class="resource-btn" href="https://www.youtube.com/watch?v=7uwa9aPbBRU&list=PLTDARY42LDV7WGmlzZtY-w9pemyPrKNUZ" target="_blank">Watch Videos</a></li>
+      <li><strong>Notes:</strong><br><a class="resource-btn" href="https://your-storage-link/AIML_Notes.pdf" download>Download Notes</a></li>
+    </ul>
+    <div id="aiml" class="syllabus">
+      <p><strong>Module I:</strong> Introduction to AI, AI Techniques, Tic-Tac-Toe Problem, Search Techniques: Hill Climbing, Simulated Annealing, Greedy Best-First, A*, Constraint Satisfaction, Mini-Max, Alpha-Beta Pruning.</p>
+      <p><strong>Module II:</strong> Knowledge Representation & Reasoning: Predicate Logic, FOPL, Resolution, Forward vs Backward Reasoning.</p>
+      <p><strong>Module III:</strong> Probabilistic Reasoning, Bayesian Networks, Dempster-Shafer Theory, Planning: Goal Stack, Hierarchical Planning.</p>
+      <p><strong>Module IV:</strong> Introduction to Machine Learning, Bias-variance trade-off, Linear & Logistic Regression, Decision Tree.</p>
+      <p><strong>Module V:</strong> Neural Networks, Gradient Descent, Backpropagation, Clustering: Hierarchical, Partitional, Density-based, Purity Measures.</p>
+    </div>
+  </div>
+
+  
+  <div class="subject">
+    <h2>Cryptography and Network Security</h2>
+    <ul>
+      <li><strong>Syllabus:</strong> <button class="btn" onclick="toggleSyllabus('cns')">View Syllabus</button></li>
+      <li><strong>Links:</strong><br><a class="resource-btn" href="https://www.youtube.com/watch?v=JoeiLuFNBc4&list=PLBlnK6fEyqRgJU3EsOYDTW7m6SUmW6kII" target="_blank">Watch Videos</a></li>
+      <li><strong>Notes:</strong><br><a class="resource-btn" href="https://your-storage-link/CNS_Notes.pdf" download>Download Notes</a></li>
+    </ul>
+    <div id="cns" class="syllabus">
+      <p><strong>Module I:</strong> Introduction to Cryptography, OSI Security Architecture, Security Attacks and Services, Classical Encryption Techniques.</p>
+      <p><strong>Module II:</strong> Modular Arithmetic, Euclidean Algorithm, Groups, Rings, Fields, GF(p), Polynomial Arithmetic, Prime Numbers, Theorems, Discrete Logarithms.</p>
+      <p><strong>Module III:</strong> DES, AES, RSA, ElGamal, ECC, Diffie-Hellman, Hash Functions, MACs, Digital Signature.</p>
+      <p><strong>Module IV:</strong> Protocols: SSL, SHTTP, TSP, SET, 3-D Secure, Email & WAP Security, GSM Security.</p>
+      <p><strong>Module V:</strong> Network Security: Trusts, Malicious Software, Worms, Viruses, IDS, Firewalls.</p>
+    </div>
+  </div>
+
+</body>
+</html>
